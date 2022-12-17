@@ -1,0 +1,36 @@
+.container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  height: 184px;
+  width: 528px;
+  overflow-x: hidden;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 422.4px;
+  }
+}
+
+.storiesSlide {
+  display: flex;
+  transition: all ease-in-out 1s;
+}
+
+.storie {
+  position: relative;
+  display: flex;
+  height: 160px;
+  min-width: 86px;
+  max-width: 86px;
+  border-radius: 1rem;
+  margin: 0 10px;
+}
+.storie:first-child {
+
+}
+.storie:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,23 @@
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  background-color: white;
+  z-index: 30;
+}
+
+.main {
+  display: flex;
+  margin-top: 71px;
+  background-color: #f2f3f7;
+  overflow-y: auto;
+  height: calc(100vh - 72px);
+  width: 100vw;
+  color: black;
+  justify-content: center;
+}
+.mainArea {
+  max-width: 1200px;
+  justify-content: center;
+}

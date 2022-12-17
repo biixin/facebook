@@ -1,0 +1,25 @@
+.suggest {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  max-height: 180px;
+}
+.suggest::-webkit-scrollbar {
+  display: none;
+}
+.suggestList {
+  max-width: 280px;
+  max-height: 175px;
+  padding-top: 10px;
+}
+
+.border {
+  border-bottom-width: 1px;
+  margin: 10px 0;
+  width: 100%;
+  content: '';
+}

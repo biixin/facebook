@@ -1,0 +1,32 @@
+.container {
+  position: absolute;
+  top: 59px;
+  right: -54px;
+  width: 360px;
+  background-color: rgb(55, 65, 81);
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.container h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+
+}
+
+.item {
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+
+}
+.item:hover {
+  background-color: rgb(107, 114, 128);
+}
+
+/* #B0B3B8 */

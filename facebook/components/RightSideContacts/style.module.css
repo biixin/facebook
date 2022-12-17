@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  padding-bottom: 10px;
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+.contactArea {
+  display: flex;
+  flex-direction: column;
+}
+.contact {
+  display: flex;
+  height: 50px;
+  margin-top: 10px;
+}
+.imageArea {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
